@@ -1,4 +1,3 @@
-/** TODO: http://go/java-style#javadoc */
 public class ReverseInput {
 
   public static void main(String[] args) {
