@@ -15,7 +15,7 @@ public class palindrome {
     }
     for ( char x : forward_text ) System.out.print(x);
     for ( char y : backward_text ) System.out.print(y);
-    if (Arrays.equals(forward_text, backward_text) == true) System.out.println("Palindrome");
+    if (Arrays.equals(forward_text, backward_text)) System.out.println("Palindrome");
     else System.out.println("Not a Palindrome");
   }
 }
